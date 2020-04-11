@@ -1,4 +1,5 @@
-﻿Imports System
+﻿Imports System.Resources
+Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -9,7 +10,7 @@ Imports System.Runtime.InteropServices
 ' Vérifiez les valeurs des attributs de l'assembly
 
 <Assembly: AssemblyTitle("IXP Gestion")>
-<Assembly: AssemblyDescription("")>
+<Assembly: AssemblyDescription("Logiciel de gestion du service IXP")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("IXP Gestion")>
 <Assembly: AssemblyCopyright("Copyright ©  2020")>
@@ -33,3 +34,4 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyVersion("1.0.0.0")>
 <Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: NeutralResourcesLanguage("fr")>

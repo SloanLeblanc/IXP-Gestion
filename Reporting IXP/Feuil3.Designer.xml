@@ -1,0 +1,8 @@
+﻿<hostitem:hostItem hostitem:baseType="Microsoft.Office.Tools.Excel.WorksheetBase" hostitem:namespace="" hostitem:className="Feuil3" hostitem:identifier="Feuil3" hostitem:primaryCookie="Feuil3" hostitem:factoryType="Microsoft.Office.Tools.Excel.Factory" hostitem:startupIndex="5" xmlns:hostitem="http://schemas.microsoft.com/2004/VisualStudio/Tools/Applications/HostItem.xsd">
+  <hostitem:hostControl hostitem:name="fibre" hostitem:identifier="fibre" hostitem:type="Microsoft.Office.Tools.Excel.NamedRange" hostitem:primaryCookie="fibre" hostitem:extenderCookie="" hostitem:modifier="Internal" />
+  <hostitem:hostControl hostitem:name="Nouveau" hostitem:identifier="Nouveau" hostitem:type="Microsoft.Office.Tools.Excel.NamedRange" hostitem:primaryCookie="Nouveau" hostitem:extenderCookie="" hostitem:modifier="Internal" />
+  <hostitem:hostControl hostitem:name="P2PPON" hostitem:identifier="P2PPON" hostitem:type="Microsoft.Office.Tools.Excel.NamedRange" hostitem:primaryCookie="P2PPON" hostitem:extenderCookie="" hostitem:modifier="Internal" />
+  <hostitem:hostControl hostitem:name="status" hostitem:identifier="status" hostitem:type="Microsoft.Office.Tools.Excel.NamedRange" hostitem:primaryCookie="status" hostitem:extenderCookie="" hostitem:modifier="Internal" />
+  <hostitem:hostControl hostitem:name="synthesePMA" hostitem:identifier="synthesePMA" hostitem:type="Microsoft.Office.Tools.Excel.NamedRange" hostitem:primaryCookie="synthesePMA" hostitem:extenderCookie="" hostitem:modifier="Internal" />
+  <hostitem:hostControl hostitem:name="synthesePPH" hostitem:identifier="synthesePPH" hostitem:type="Microsoft.Office.Tools.Excel.NamedRange" hostitem:primaryCookie="synthesePPH" hostitem:extenderCookie="" hostitem:modifier="Internal" />
+</hostitem:hostItem>
