@@ -17,8 +17,7 @@ Module Func_1
     'Chemin de l'appli
     Public ChemAppli As String = Application.StartupPath
     'Chemin pour pour le dossier reporting par défaut dans mes documents
-    'pas encore sur que je l'utilise
-    Public MesDocReporting As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) & "\Reporting IXP"
+    Public MesDocReporting As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) & "\IXP Reporting"
 
 
 #End Region
@@ -54,7 +53,14 @@ Module Func_1
         'Vérifie si le dossier existe sinon on le créer
         VerifDossier(MesDocReporting)
         'Trouve le chemin du fichier excel de base
-        Dim CheminSource As String = Replace(ChemAppli, "\IXP Gestion\bin\Debug", "\Reporting IXP\reportingBaseLocal.xlsm")
+        Dim CheminSource As String
+        'CheminSource = Replace(ChemAppli, "\IXP Gestion\bin\Debug", "\Reporting IXP\")
+        'MsgBox(CheminSource)
+        'If Directory.Exists(CheminSource) = True Then
+        'CheminSource = CheminSource & "reportingBaseLocal.xlsm"
+        'Else
+        CheminSource = ChemAppli & "\reportingBaseLocal.xlsm"
+        'End If
 
         'Choisir un dossier de destination pour le reporting
 
@@ -65,6 +71,14 @@ Module Func_1
                 .Visible = True
             }
             XlsApp.Workbooks.Open(CheminComplet)
+            Dim xlsSheets As xls.Worksheet
+            xlsSheets = CType(XlsApp.ActiveWorkbook.Worksheets("Commande"), xls.Worksheet)
+            With xlsSheets
+                .Select()
+                .Range("C15").Value = Trigramme
+                .Range("C16").Value = SemaineEnCours()
+                .Range("C30").Value = RecupereCleFichierIni(CleChemExport)
+            End With
 
         Catch ex As IOException
             Dim rep = MsgBox("Le Fichier existe déjà. Souhaitez-vous enregister par dessus",
@@ -201,6 +215,10 @@ Module Func_1
         End Try
         Form_Main.BT_OUVRIR_REPORTING.Enabled = True
         'Maj des donnée dans le reporting
+
+    End Sub
+
+    Sub test()
 
     End Sub
 #End Region

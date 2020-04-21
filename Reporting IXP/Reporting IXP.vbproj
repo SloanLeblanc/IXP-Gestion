@@ -13,8 +13,8 @@
     <OfficeApplication>Excel</OfficeApplication>
     <BootstrapperEnabled>true</BootstrapperEnabled>
     <BootstrapperComponentsLocation>HomeSite</BootstrapperComponentsLocation>
-    <ProjectGuid>{DBC78B2F-4F26-40C8-8B5D-07F242036329}</ProjectGuid>
-    <SolutionID>8e8bc4e4-35fb-4c6a-ae4f-c68279c2a057</SolutionID>
+    <ProjectGuid>{A29843B3-167B-42E8-B8E8-B7B7FFA1B896}</ProjectGuid>
+    <SolutionID>1f029466-e8ce-4d4a-a6e1-143ece7b4a1e</SolutionID>
   </PropertyGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.VSTORuntime.4.0">
@@ -246,7 +246,7 @@
     <ManifestKeyFile>Reporting IXP_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>1185A5C5B4A8B5441DA74929CB9B462588967E71</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>42043794C496DCDC5DFAF3E0E5D8A87C40EB96E5</ManifestCertificateThumbprint>
   </PropertyGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Import Project="$(VSToolsPath)\OfficeTools\Microsoft.VisualStudio.Tools.Office.targets" Condition="'$(VSToolsPath)' != ''" />

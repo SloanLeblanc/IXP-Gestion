@@ -22,7 +22,7 @@ Imports System.Security
 <Assembly: ComVisible(False)>
 
 'Le GUID suivant est pour l'ID de la typelib si ce projet est exposé à COM
-<Assembly: Guid("9c285a8e-8508-4aa3-af66-676ee0b7406b")> 
+<Assembly: Guid("817f14fe-1155-4154-bff5-56f0d2ebe67c")> 
 
 ' Les informations de version pour un assembly se composent des quatre valeurs suivantes :
 '

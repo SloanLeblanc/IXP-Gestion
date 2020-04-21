@@ -11,7 +11,7 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("IXP Gestion")>
 <Assembly: AssemblyDescription("Logiciel de gestion du service IXP")>
-<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyCompany("IXP")>
 <Assembly: AssemblyProduct("IXP Gestion")>
 <Assembly: AssemblyCopyright("Copyright ©  2020")>
 <Assembly: AssemblyTrademark("")>
